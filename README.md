@@ -12,19 +12,45 @@ usage: net-listner.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET]
 
 optional arguments:
   -h, --help            show this help message and exit
+  
+  
   -c, --command         command shell
+ 
+  
   -e EXECUTE, --execute EXECUTE
                         execute specified command
+  
+  
+  
   -l, --listen          listen
+ 
+  
+  
   -p PORT, --port PORT  specified port
+ 
+  
+  
   -t TARGET, --target TARGET
                         specified IP
+
+  
+  
   -u UPLOAD, --upload UPLOAD
                         upload file
 
 # Example:
 net-listner.py -t 192.8.7.11 -p 1234 -l -c # command shell
+
+
+
 net-listner.py -t 192.8.7.11 -p 1234 -l -u=mytest.txt # upload to file
+
+
+
 net-listner.py -t 192.8.7.11 -p 1234 -l -e="cat /etc/passwd" # execute command
+
+
 echo 'ABC' | ./net-listner.py -t 192.8.7.11 -p 1234 -l -c # echo text to server port 135
+
+
 net-listner.py -t 192.8.7.11 -p 1234 # connect to server
