@@ -17,7 +17,7 @@ optional arguments:
   -c, --command         command shell
  
   
-  -e EXECUTE, --execute EXECUTE
+  -e EXECUTE, --execute 
                         execute specified command
   
   
