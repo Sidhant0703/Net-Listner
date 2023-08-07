@@ -6,27 +6,9 @@ git clone https://github.com/Sidhant0703/Net-Listner.git
 
 # Usage
 >> python3 net-listner.py -h
-
-  _   _ ______ _______     _      _____  _____ _______ _   _ ______ _____
- | \ | |  ____|__   __|   | |    |_   _|/ ____|__   __| \ | |  ____|  __ \
- |  \| | |__     | |______| |      | | | (___    | |  |  \| | |__  | |__) |
- | . ` |  __|    | |______| |      | |  \___ \   | |  | . ` |  __| |  _  /
- | |\  | |____   | |      | |____ _| |_ ____) |  | |  | |\  | |____| | \ \
- |_| \_|______|  |_|      |______|_____|_____/   |_|  |_| \_|______|_|  \_\
-
-
-
-*******************************************************
-
-*         Copyright of sidhanta palei,2023            *
-
-*      https://github.com/Sidhant0703/Net-Listner     *
-
-*******************************************************
+ 
 usage: net-listner.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET]
-                      [-u UPLOAD]
-
-Net Tool By Sidhant0703
+                      [-u UPLOAD}
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -40,7 +22,7 @@ optional arguments:
   -u UPLOAD, --upload UPLOAD
                         upload file
 
-Example:
+# Example:
 net-listner.py -t 192.8.7.11 -p 1234 -l -c # command shell
 net-listner.py -t 192.8.7.11 -p 1234 -l -u=mytest.txt # upload to file
 net-listner.py -t 192.8.7.11 -p 1234 -l -e="cat /etc/passwd" # execute command
