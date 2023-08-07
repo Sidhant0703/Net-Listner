@@ -14,28 +14,28 @@ optional arguments:
   -h, --help            #show this help message and exit
   
   
-  -c, --command        #command shell
+  -c, --command                     #command shell
  
   
-  -e EXECUTE, --execute  #execute specified command
+  -e EXECUTE, --execute              #execute specified command
   
   
   
-  -l, --listen          #listen
+  -l, --listen                            #listen
  
   
   
-  -p PORT, --port   #specified port
+  -p PORT, --port                    #specified port
  
   
   
   -t TARGET, --target 
-                        #specified IP
+                                       #specified IP
 
   
   
   -u UPLOAD, --upload 
-                        #upload file
+                                    #upload file
 
 # Example:
 net-listner.py -t 192.8.7.11 -p 1234 -l -c # command shell
