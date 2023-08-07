@@ -11,32 +11,31 @@ usage: net-listner.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET]
                       [-u UPLOAD}
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            #show this help message and exit
   
   
-  -c, --command         command shell
+  -c, --command        #command shell
  
   
-  -e EXECUTE, --execute 
-                        execute specified command
+  -e EXECUTE, --execute  #execute specified command
   
   
   
-  -l, --listen          listen
- 
-  
-  
-  -p PORT, --port PORT  specified port
+  -l, --listen          #listen
  
   
   
-  -t TARGET, --target TARGET
-                        specified IP
+  -p PORT, --port   #specified port
+ 
+  
+  
+  -t TARGET, --target 
+                        #specified IP
 
   
   
-  -u UPLOAD, --upload UPLOAD
-                        upload file
+  -u UPLOAD, --upload 
+                        #upload file
 
 # Example:
 net-listner.py -t 192.8.7.11 -p 1234 -l -c # command shell
